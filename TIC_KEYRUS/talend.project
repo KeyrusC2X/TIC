@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_I1QwITkQEei3jNryDarysw" label="TIC_Keyrus" language="java" technicalLabel="TIC_KEYRUS" author="_I1QwIjkQEei3jNryDarysw" productVersion="Talend Integration Cloud Elastic Edition-6.5.1.20180116_1512" url="{&quot;location&quot;:&quot;https://github.com/KeyrusC2X/TIC.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <technicalStatus xmi:id="_JRc84DkQEei3jNryDarysw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_JRc84TkQEei3jNryDarysw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_JRc84jkQEei3jNryDarysw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_JRYrcDkQEei3jNryDarysw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_JRYrcTkQEei3jNryDarysw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_JRYrcjkQEei3jNryDarysw" label="validated" code="VAL"/>
     <migrationTask xmi:id="_JQ1R0DkQEei3jNryDarysw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_JQ1R0TkQEei3jNryDarysw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_JQ144DkQEei3jNryDarysw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
