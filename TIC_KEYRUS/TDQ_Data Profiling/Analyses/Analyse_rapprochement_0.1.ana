@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_5KTRoDpYEeinUq6x-eL3Mw" name="Analyse rapprochement" creationDate="2018-04-07T13:43:30.186+0200">
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_5KTRoDpYEeinUq6x-eL3Mw" name="Analyse rapprochement" creationDate="2018-04-07T13:43:30.186+0200" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/Mysql_0.1.item#_5r6J4DpYEeinUq6x-eL3Mw"/>
   <taggedValue xmi:id="_5KTRoTpYEeinUq6x-eL3Mw" tag="PREVIEW_ROW_NUMBER" value="10000"/>
   <taggedValue xmi:id="_5KTRojpYEeinUq6x-eL3Mw" tag="Status" value="development"/>
   <taggedValue xmi:id="_5KTRozpYEeinUq6x-eL3Mw" tag="Author" value="charlesclement@eval8248.talend.com"/>
-  <taggedValue xmi:id="_5KTRpDpYEeinUq6x-eL3Mw" tag="Purpose"/>
-  <taggedValue xmi:id="_5KTRpTpYEeinUq6x-eL3Mw" tag="Description"/>
+  <taggedValue xmi:id="_5KTRpDpYEeinUq6x-eL3Mw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_5KTRpTpYEeinUq6x-eL3Mw" tag="Description" value=""/>
   <taggedValue xmi:id="_5KTRpjpYEeinUq6x-eL3Mw" tag="Version" value="0.1"/>
-  <context xmi:id="_5KTRpzpYEeinUq6x-eL3Mw"/>
+  <taggedValue xmi:id="_5P3HEDpYEeinUq6x-eL3Mw" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_5P3HETpYEeinUq6x-eL3Mw" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_5P3HEjpYEeinUq6x-eL3Mw" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_5r3toTpYEeinUq6x-eL3Mw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_5KTRpzpYEeinUq6x-eL3Mw">
+    <connection href="../../metadata/connections/Mysql_0.1.item#_zaihsDkUEeiGvepkJw340g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUwjpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUxjpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUyjpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUzjpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU0jpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU1jpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU2jpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU3jpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU4jpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU5jpWEeinUq6x-eL3Mw"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUU6jpWEeinUq6x-eL3Mw"/>
+  </context>
   <results xmi:id="_5KTRqDpYEeinUq6x-eL3Mw">
     <resultMetadata xmi:id="_5KTRqTpYEeinUq6x-eL3Mw"/>
     <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_5KT4sDpYEeinUq6x-eL3Mw"/>
     <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_5KT4sTpYEeinUq6x-eL3Mw">
-      <builtInMatchRuleDefinition xmi:id="_5KT4sjpYEeinUq6x-eL3Mw"/>
+      <builtInMatchRuleDefinition xmi:id="_5KT4sjpYEeinUq6x-eL3Mw">
+        <matchRules xmi:id="_5OenADpYEeinUq6x-eL3Mw" name="Règle de rapprochement 1"/>
+      </builtInMatchRuleDefinition>
     </indicators>
   </results>
   <parameters xmi:id="_5KT4szpYEeinUq6x-eL3Mw" analysisType="Match Analysis"/>
+  <contextType xmi:id="_5r3toDpYEeinUq6x-eL3Mw" confirmationNeeded="false" name="Default"/>
 </dataquality.analysis:Analysis>
