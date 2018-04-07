@@ -459,14 +459,49 @@
     <nodeData xsi:type="tdqmatching:MatchingData">
       <ruleMatchers>
         <joinkeys>
+          <columnMap key="SURVIVORSHIP_FUNCTION" value="Concatenate"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="ATTRIBUTE_THRESHOLD" value="1.0"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CUSTOM_MATCHER" value=""/>
+          <columnMap key="INPUT_COLUMN" value="Company"/>
+        </joinkeys>
+        <joinkeys>
+          <columnMap key="SURVIVORSHIP_FUNCTION" value="Concatenate"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="ATTRIBUTE_THRESHOLD" value="1.0"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CUSTOM_MATCHER" value=""/>
+          <columnMap key="INPUT_COLUMN" value="First_Name"/>
+        </joinkeys>
+        <joinkeys>
+          <columnMap key="SURVIVORSHIP_FUNCTION" value="Concatenate"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="ATTRIBUTE_THRESHOLD" value="1.0"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CUSTOM_MATCHER" value=""/>
+          <columnMap key="INPUT_COLUMN" value="Last_Name"/>
+        </joinkeys>
+        <matchParamMap key="INTERVAL_RULE" value="0.8"/>
+        <matchParamMap key="MATCHING_ALGORITHM" value="Simple VSR Matcher"/>
+      </ruleMatchers>
+      <ruleMatchers>
+        <joinkeys>
           <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
           <columnMap key="SURVIVORSHIP_FUNCTION" value="Concatenate"/>
           <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
           <columnMap key="ATTRIBUTE_THRESHOLD" value="1.0"/>
           <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
           <columnMap key="INPUT_COLUMN" value="Company"/>
-          <columnMap key="TOKENIZATION_TYPE" value="No"/>
           <columnMap key="CUSTOM_MATCHER" value=""/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="PARAMETER" value=","/>
         </joinkeys>
         <joinkeys>
           <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
@@ -475,8 +510,9 @@
           <columnMap key="ATTRIBUTE_THRESHOLD" value="1.0"/>
           <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
           <columnMap key="INPUT_COLUMN" value="First_Name"/>
-          <columnMap key="TOKENIZATION_TYPE" value="No"/>
           <columnMap key="CUSTOM_MATCHER" value=""/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="PARAMETER" value=","/>
         </joinkeys>
         <joinkeys>
           <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
@@ -485,8 +521,9 @@
           <columnMap key="ATTRIBUTE_THRESHOLD" value="1.0"/>
           <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
           <columnMap key="INPUT_COLUMN" value="Last_Name"/>
-          <columnMap key="TOKENIZATION_TYPE" value="No"/>
           <columnMap key="CUSTOM_MATCHER" value=""/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="PARAMETER" value=","/>
         </joinkeys>
         <matchParamMap key="INTERVAL_RULE" value="0.8"/>
         <matchParamMap key="MATCHING_ALGORITHM" value="Simple VSR Matcher"/>
