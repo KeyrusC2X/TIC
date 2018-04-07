@@ -30,7 +30,14 @@
     <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_5KT4sDpYEeinUq6x-eL3Mw"/>
     <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_5KT4sTpYEeinUq6x-eL3Mw">
       <builtInMatchRuleDefinition xmi:id="_5KT4sjpYEeinUq6x-eL3Mw">
-        <matchRules xmi:id="_5OenADpYEeinUq6x-eL3Mw" name="Règle de rapprochement 1"/>
+        <matchRules xmi:id="_5OenADpYEeinUq6x-eL3Mw" name="Règle de rapprochement 1">
+          <matchKeys xmi:id="_7R_W4DpYEeinUq6x-eL3Mw" name="Company" column="Company" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_7R_W4TpYEeinUq6x-eL3Mw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_JTYOADpZEeinUq6x-eL3Mw" name="Nom" column="First_Name" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_JTYOATpZEeinUq6x-eL3Mw" algorithmType="EXACT" algorithmParameters=""/>
+          </matchKeys>
+        </matchRules>
       </builtInMatchRuleDefinition>
     </indicators>
   </results>
