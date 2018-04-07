@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:MatchRuleDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_2Pn_gDp0EeinUq6x-eL3Mw" name="Client" matchGroupQualityThreshold="0.95">
+  <taggedValue xmi:id="_2Pn_gTp0EeinUq6x-eL3Mw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_2Pn_gjp0EeinUq6x-eL3Mw" tag="Author" value="charlesclement@eval8248.talend.com"/>
+  <taggedValue xmi:id="_2Pn_gzp0EeinUq6x-eL3Mw" tag="Purpose"/>
+  <taggedValue xmi:id="_2Pn_hDp0EeinUq6x-eL3Mw" tag="Description"/>
+  <taggedValue xmi:id="_2Pn_hTp0EeinUq6x-eL3Mw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_2Pn_hjp0EeinUq6x-eL3Mw" tag="Validation_Status" value="true"/>
+  <matchRules xmi:id="_2Pn_hzp0EeinUq6x-eL3Mw" name="Règle de rapprochement 1" matchInterval="0.8">
+    <matchKeys xmi:id="_2Pn_iDp0EeinUq6x-eL3Mw" name="Company" column="Company" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_2Pn_iTp0EeinUq6x-eL3Mw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_2Pn_ijp0EeinUq6x-eL3Mw" name="Nom" column="First_Name" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_2Pn_izp0EeinUq6x-eL3Mw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+    </matchKeys>
+    <matchKeys xmi:id="_2Pn_jDp0EeinUq6x-eL3Mw" name="Prenom" column="Last_Name" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_2Pn_jTp0EeinUq6x-eL3Mw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+    </matchKeys>
+  </matchRules>
+  <survivorshipKeys xmi:id="_2Pn_jjp0EeinUq6x-eL3Mw" name="Company" allowManualResolution="true">
+    <function xmi:id="_2Pn_jzp0EeinUq6x-eL3Mw" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+  <survivorshipKeys xmi:id="_2Pn_kDp0EeinUq6x-eL3Mw" name="Nom" allowManualResolution="true">
+    <function xmi:id="_2Pn_kTp0EeinUq6x-eL3Mw" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+  <survivorshipKeys xmi:id="_2Pn_kjp0EeinUq6x-eL3Mw" name="Prenom" allowManualResolution="true">
+    <function xmi:id="_2Pn_kzp0EeinUq6x-eL3Mw" algorithmType="Concatenate" algorithmParameters=","/>
+  </survivorshipKeys>
+</dataquality.rules:MatchRuleDefinition>
