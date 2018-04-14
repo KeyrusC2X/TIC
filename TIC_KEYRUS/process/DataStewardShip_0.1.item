@@ -228,7 +228,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="200000" show="false"/>
     <elementParameter field="DIRECTORY" name="TMP_DIRECTORY" value="&quot;D:/talend_65/studio/Talend-Studio-20180116_1512-V6.5.1/workspace&quot;" show="false"/>
     <elementParameter field="CHECK" name="SEPARATE_OUTPUT" value="true"/>
-    <elementParameter field="TEXT" name="CONFIDENCE_THRESHOLD" value="0.9"/>
+    <elementParameter field="TEXT" name="CONFIDENCE_THRESHOLD" value="0.95"/>
     <elementParameter field="CHECK" name="LINK_WITH_PREVIOUS" value="false"/>
     <elementParameter field="CHECK" name="PROPAGATE_ORIGINAL" value="false" show="false"/>
     <elementParameter field="CHECK" name="SORT_DATA" value="true"/>
