@@ -262,7 +262,7 @@
       <column comment="" key="false" length="200" name="SFDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1" activateCondensedTool="true" id="_a6_NIDkVEeiGvepkJw340g - metadata1">
         <mapperTableEntries name="First_Name" expression="row1.First_Name " type="id_String" nullable="true"/>
