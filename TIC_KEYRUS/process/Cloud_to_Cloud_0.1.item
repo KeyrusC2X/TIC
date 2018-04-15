@@ -212,6 +212,10 @@
       <elementValue elementRef="FUNCTION" value="GENERATE_PHONE_NUMBER_FRENCH"/>
       <elementValue elementRef="EXTRA_PARAMETER" value="&quot;&quot;"/>
       <elementValue elementRef="KEEP_FORMAT" value="false"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Email"/>
+      <elementValue elementRef="FUNCTION" value="MASK_EMAIL"/>
+      <elementValue elementRef="EXTRA_PARAMETER" value="&quot;X&quot;"/>
+      <elementValue elementRef="KEEP_FORMAT" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="RANDOM_SEED" value="12345678"/>
     <elementParameter field="CHECK" name="OUTPUT_ORIGINAL" value="false"/>
@@ -256,7 +260,7 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="96">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_UvfwsDkUEeiGvepkJw340g" show="false"/>
