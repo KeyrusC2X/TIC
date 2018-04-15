@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:FileExcelConnection xmi:id="_a7BpYDkVEeiGvepkJw340g" name="Marketing_lead" dataPackage="_a7BpYTkVEeiGvepkJw340g" Server="Localhost 127.0.0.1" FilePath="C:/Local_data/Input/Marketing_lead.XLSX" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Lead" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Lead:w&#xA;">
+  <TalendMetadata:FileExcelConnection xmi:id="_a7BpYDkVEeiGvepkJw340g" name="Marketing_lead" dataPackage="_a7BpYTkVEeiGvepkJw340g _tDc8oECPEeiZDNAEk_PjHg" Server="Localhost 127.0.0.1" FilePath="C:/Local_data/Input/Marketing_lead.XLSX" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Lead" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Lead:w&#xA;">
     <sheetColumns>A</sheetColumns>
     <sheetColumns>B</sheetColumns>
     <sheetColumns>C</sheetColumns>
@@ -26,6 +26,21 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BpazkVEeiGvepkJw340g" label="Lead_Score" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BpbDkVEeiGvepkJw340g" label="ID_Commercial" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BpbTkVEeiGvepkJw340g" label="SFDC" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_tDc8oECPEeiZDNAEk_PjHg" name="default" dataManager="_a7BpYDkVEeiGvepkJw340g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tDc8oUCPEeiZDNAEk_PjHg" id="_dnEuMECPEeiZDNAEk_PjHg" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8okCPEeiZDNAEk_PjHg" label="First_Name" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8o0CPEeiZDNAEk_PjHg" label="Last_Name" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8pECPEeiZDNAEk_PjHg" label="Email" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8pUCPEeiZDNAEk_PjHg" label="Acquisition_Date" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8pkCPEeiZDNAEk_PjHg" label="Title" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8p0CPEeiZDNAEk_PjHg" label="Phone" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8qECPEeiZDNAEk_PjHg" label="Country" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8qUCPEeiZDNAEk_PjHg" label="adresse" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8qkCPEeiZDNAEk_PjHg" label="Lead_Score" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8q0CPEeiZDNAEk_PjHg" label="ID_Commercial" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tDc8rECPEeiZDNAEk_PjHg" label="SFDC" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
