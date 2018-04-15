@@ -13,7 +13,6 @@
   <taggedValue xmi:id="_5r3toTpYEeinUq6x-eL3Mw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
   <context xmi:id="_5KTRpzpYEeinUq6x-eL3Mw">
     <connection href="../../metadata/connections/Mysql_0.1.item#_zaihsDkUEeiGvepkJw340g"/>
-    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUwjpWEeinUq6x-eL3Mw"/>
     <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUxjpWEeinUq6x-eL3Mw"/>
     <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUyjpWEeinUq6x-eL3Mw"/>
     <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Mysql_0.1.item#_TAUUzjpWEeinUq6x-eL3Mw"/>
