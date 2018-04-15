@@ -166,26 +166,6 @@
       <relatedItems xmi:id="_eUfAYT_rEeiZDNAEk_PjHg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_eUfAYj_rEeiZDNAEk_PjHg" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
-    <ItemsRelations xmi:id="_YDragD_0EeiZDNAEk_PjHg">
-      <baseItem xmi:id="_YDragT_0EeiZDNAEk_PjHg" id="_TRickKi-Eeaar6A-tHD6rg" version="0.1" type="job"/>
-      <relatedItems xmi:id="_YDragj_0EeiZDNAEk_PjHg" id="_6PZ1cIY6EeahtcIKlCJyXA" version="Latest" type="context"/>
-      <relatedItems xmi:id="_YDragz_0EeiZDNAEk_PjHg" id="SQLike" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrahD_0EeiZDNAEk_PjHg" id="Numeric" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrahT_0EeiZDNAEk_PjHg" id="TalendString" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrahj_0EeiZDNAEk_PjHg" id="DataMasking" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrahz_0EeiZDNAEk_PjHg" id="DataOperation" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDraiD_0EeiZDNAEk_PjHg" id="DqStringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDraiT_0EeiZDNAEk_PjHg" id="StringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDraij_0EeiZDNAEk_PjHg" id="TalendDataGenerator" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDraiz_0EeiZDNAEk_PjHg" id="TalendDate" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrajD_0EeiZDNAEk_PjHg" id="DataQuality" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrajT_0EeiZDNAEk_PjHg" id="Mathematical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrajj_0EeiZDNAEk_PjHg" id="Relational" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrajz_0EeiZDNAEk_PjHg" id="DQTechnical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrakD_0EeiZDNAEk_PjHg" id="DataQualityDependencies" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_YDrakT_0EeiZDNAEk_PjHg" id="MDM" version="Latest" type="routine"/>
-    </ItemsRelations>
-    <deletedFolders>process/TDS_doc_jobs</deletedFolders>
     <migrationTask xmi:id="_JQ1R0DkQEei3jNryDarysw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_JQ1R0TkQEei3jNryDarysw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_JQ144DkQEei3jNryDarysw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
