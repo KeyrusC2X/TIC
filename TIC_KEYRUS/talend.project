@@ -146,6 +146,7 @@
       <relatedItems xmi:id="_OJEADzpYEeinUq6x-eL3Mw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OJEAEDpYEeinUq6x-eL3Mw" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OJEAETpYEeinUq6x-eL3Mw" id="_UvfwsDkUEeiGvepkJw340g - Client_mask" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Ga71sEG2EeikeJUlH_9Rcw" id="_gR7eUEG1EeikeJUlH_9Rcw" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_eUfAUD_rEeiZDNAEk_PjHg">
       <baseItem xmi:id="_eUfAUT_rEeiZDNAEk_PjHg" id="_eQcVMD_oEeiZDNAEk_PjHg" version="0.1" type="job"/>
