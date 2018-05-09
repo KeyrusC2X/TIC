@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_hyrkgFN-EeiDzO4pYTBaYw" name="Access" id="_DSgmwFN-EeiDzO4pYTBaYw" label="Access" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess://C:/Users/charles.clement/Desktop/LGPV4.accdb;jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/Users/charles.clement/Desktop/LGPV4.accdb" SID="" SqlSynthax="Syntaxe SQL" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_hyrkgVN-EeiDzO4pYTBaYw" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_hzSogFN-EeiDzO4pYTBaYw" tag="package filter" value=""/>
+  <taggedValue xmi:id="_hzZWMFN-EeiDzO4pYTBaYw" tag="Status" value=""/>
+  <taggedValue xmi:id="_hzZWMVN-EeiDzO4pYTBaYw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_hzZWMlN-EeiDzO4pYTBaYw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_hzZWM1N-EeiDzO4pYTBaYw" tag="Description" value=""/>
+  <taggedValue xmi:id="_hzZWNFN-EeiDzO4pYTBaYw" tag="Author" value=""/>
+  <taggedValue xmi:id="_hzZWNVN-EeiDzO4pYTBaYw" tag="otherParameter"/>
+  <taggedValue xmi:id="_lAQTwFN-EeiDzO4pYTBaYw" tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb"/>
+  <taggedValue xmi:id="_lAQTwVN-EeiDzO4pYTBaYw" tag="DB ProductVersion" value="V2007 [VERSION_12]"/>
+  <taggedValue xmi:id="_lAQTwlN-EeiDzO4pYTBaYw" tag="DB IdentifierQuoteString" value="`"/>
+</TalendMetadata:DatabaseConnection>
