@@ -14,47 +14,51 @@
     <taggedValue xmi:id="_lAQTwlN-EeiDzO4pYTBaYw" tag="DB IdentifierQuoteString" value="`"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Schema xmi:id="_DP6JQFN_EeiDzO4pYTBaYw" name="Access" dataManager="_hyrkgFN-EeiDzO4pYTBaYw">
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wUFN_EeiDzO4pYTBaYw" name="REQUÊTE1" id="_AqqlUFN_EeiDzO4pYTBaYw" label="REQUETE1" tableType="VIEW">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wUVN_EeiDzO4pYTBaYw" name="ID_PATIENT" label="ID_PATIENT" length="32" sourceType="INTEGER" talendType="id_Long">
-        <initialValue xmi:id="_DP6wUlN_EeiDzO4pYTBaYw"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wrlN_EeiDzO4pYTBaYw" name="CATALOGUE_MATERIAUX" id="_ArS3cFN_EeiDzO4pYTBaYw" label="CATALOGUE_MATERIAUX1" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wr1N_EeiDzO4pYTBaYw" name="ID_CATALOGUE_MATERIAUX" label="ID_CATALOGUE_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wsFN_EeiDzO4pYTBaYw"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wU1N_EeiDzO4pYTBaYw" name="NOM_PATIENT" label="NOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wVFN_EeiDzO4pYTBaYw"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wsVN_EeiDzO4pYTBaYw" name="DATE_DEBUT" label="DATE_DEBUT" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_DP6wslN_EeiDzO4pYTBaYw"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wVVN_EeiDzO4pYTBaYw" name="PRENOM_PATIENT" label="PRENOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wVlN_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wV1N_EeiDzO4pYTBaYw" name="DATE_COMMANDE" id="_AqyhIFN_EeiDzO4pYTBaYw" label="DATE_COMMANDE" tableType="VIEW">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wWFN_EeiDzO4pYTBaYw" name="DATE_COMMANDE" label="DATE_COMMANDE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_DP6wWVN_EeiDzO4pYTBaYw"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6ws1N_EeiDzO4pYTBaYw" name="DATE_FIN" label="DATE_FIN" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_DP6wtFN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wWlN_EeiDzO4pYTBaYw" name="ANNEES" id="_Aq09YFN_EeiDzO4pYTBaYw" label="ANNEES" tableType="VIEW">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wW1N_EeiDzO4pYTBaYw" name="ANNEE" label="ANNEE" length="32" sourceType="INTEGER" talendType="id_Long">
-        <initialValue xmi:id="_DP6wXFN_EeiDzO4pYTBaYw"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wl1N_EeiDzO4pYTBaYw" name="PATIENT" id="_ArEN8FN_EeiDzO4pYTBaYw" label="PATIENT" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wmFN_EeiDzO4pYTBaYw" name="ID_PATIENT" label="ID_PATIENT" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wmVN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wmlN_EeiDzO4pYTBaYw" name="NOM_PATIENT" label="NOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wm1N_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wnFN_EeiDzO4pYTBaYw" name="PRENOM_PATIENT" label="PRENOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wnVN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wXVN_EeiDzO4pYTBaYw" name="PRATICIEN_LISTE" id="_Aq2LgFN_EeiDzO4pYTBaYw" label="PRATICIEN_LISTE" tableType="VIEW">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wXlN_EeiDzO4pYTBaYw" name="ID_PRATICIEN" label="ID_PRATICIEN" length="32" sourceType="INTEGER" talendType="id_Long">
-        <initialValue xmi:id="_DP6wX1N_EeiDzO4pYTBaYw"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wkFN_EeiDzO4pYTBaYw" name="MATERIAUX" id="_Aq_8gFN_EeiDzO4pYTBaYw" label="MATERIAUX" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wkVN_EeiDzO4pYTBaYw" name="ID_MATERIAUX" label="ID_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wklN_EeiDzO4pYTBaYw"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wYFN_EeiDzO4pYTBaYw" name="NOM_PRATICIEN" label="NOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wYVN_EeiDzO4pYTBaYw"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wk1N_EeiDzO4pYTBaYw" name="NOM_MATERIAUX" label="NOM_MATERIAUX" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wlFN_EeiDzO4pYTBaYw"/>
       </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wYlN_EeiDzO4pYTBaYw" name="CATALOGUE PROTHESE ET TARIFS" id="_Aq4AsFN_EeiDzO4pYTBaYw" label="CATALOGUE_PROTHESE_ET_TARIFS" tableType="VIEW">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wY1N_EeiDzO4pYTBaYw" name="NOM_PROTHESE" label="NOM_PROTHESE" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wZFN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wZVN_EeiDzO4pYTBaYw" name="PRIX_PROTHESE" label="PRIX_PROTHESE" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_DP6wZlN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wZ1N_EeiDzO4pYTBaYw" name="ID_PROTHESE" label="ID_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long">
-        <initialValue xmi:id="_DP6waFN_EeiDzO4pYTBaYw"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wlVN_EeiDzO4pYTBaYw" name="AFFICHAGE_MATERIAUX" label="AFFICHAGE_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_DP6wllN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6waVN_EeiDzO4pYTBaYw" name="CATALOGUE MATERIAUX ET TARIFS" id="_Aq5O0FN_EeiDzO4pYTBaYw" label="CATALOGUE_MATERIAUX_ET_TARIFS" tableType="VIEW">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wvFN_EeiDzO4pYTBaYw" name="PRIX_PROTHESE" id="_ArV6wFN_EeiDzO4pYTBaYw" label="PRIX_PROTHESE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wvVN_EeiDzO4pYTBaYw" name="ID_PROTHESE" label="ID_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wvlN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wv1N_EeiDzO4pYTBaYw" name="ID_CATALOGUE_PROTHESE" label="ID_CATALOGUE_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wwFN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wwVN_EeiDzO4pYTBaYw" name="PRIX_PROTHESE" label="PRIX_PROTHESE" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_DP6wwlN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6waVN_EeiDzO4pYTBaYw" name="CATALOGUE MATERIAUX ET TARIFS" id="_G0VVcFODEeiDzO4pYTBaYw" label="CATALOGUE_MATERIAUX_ET_TARIFS" tableType="VIEW">
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6walN_EeiDzO4pYTBaYw" name="NOM_MATERIAUX" label="NOM_MATERIAUX" length="255" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_DP6wa1N_EeiDzO4pYTBaYw"/>
       </feature>
@@ -68,6 +72,17 @@
         <initialValue xmi:id="_DP6wcVN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wYlN_EeiDzO4pYTBaYw" name="CATALOGUE PROTHESE ET TARIFS" id="_G0WjkFODEeiDzO4pYTBaYw" label="CATALOGUE_PROTHESE_ET_TARIFS" tableType="VIEW">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wY1N_EeiDzO4pYTBaYw" name="NOM_PROTHESE" label="NOM_PROTHESE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wZFN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wZVN_EeiDzO4pYTBaYw" name="PRIX_PROTHESE" label="PRIX_PROTHESE" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_DP6wZlN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wZ1N_EeiDzO4pYTBaYw" name="ID_PROTHESE" label="ID_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_DP6waFN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wclN_EeiDzO4pYTBaYw" name="PROTHESISTE" id="_Aq7rEFN_EeiDzO4pYTBaYw" label="PROTHESISTE" tableType="TABLE">
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6wc1N_EeiDzO4pYTBaYw" name="ID_PROTHESISTE" label="ID_PROTHESISTE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
         <initialValue xmi:id="_DP6wdFN_EeiDzO4pYTBaYw"/>
@@ -77,6 +92,17 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6wd1N_EeiDzO4pYTBaYw" name="ACTIF" label="ACTIF" sourceType="BOOLEAN" talendType="id_Boolean">
         <initialValue xmi:id="_DP6weFN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wtVN_EeiDzO4pYTBaYw" name="PROTHESE" id="_ArUsoFN_EeiDzO4pYTBaYw" label="PROTHESE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wtlN_EeiDzO4pYTBaYw" name="ID_PROTHESE" label="ID_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wt1N_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wuFN_EeiDzO4pYTBaYw" name="NOM_PROTHESE" label="NOM_PROTHESE" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wuVN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wulN_EeiDzO4pYTBaYw" name="AFFICHAGE_PROTHESE" label="AFFICHAGE_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_DP6wu1N_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6weVN_EeiDzO4pYTBaYw" name="COMMANDE" id="_Aq-uYFN_EeiDzO4pYTBaYw" label="COMMANDE" tableType="TABLE">
@@ -114,42 +140,6 @@
         <initialValue xmi:id="_DP6wj1N_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wkFN_EeiDzO4pYTBaYw" name="MATERIAUX" id="_Aq_8gFN_EeiDzO4pYTBaYw" label="MATERIAUX" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wkVN_EeiDzO4pYTBaYw" name="ID_MATERIAUX" label="ID_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wklN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wk1N_EeiDzO4pYTBaYw" name="NOM_MATERIAUX" label="NOM_MATERIAUX" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wlFN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wlVN_EeiDzO4pYTBaYw" name="AFFICHAGE_MATERIAUX" label="AFFICHAGE_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long">
-        <initialValue xmi:id="_DP6wllN_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wl1N_EeiDzO4pYTBaYw" name="PATIENT" id="_ArEN8FN_EeiDzO4pYTBaYw" label="PATIENT" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wmFN_EeiDzO4pYTBaYw" name="ID_PATIENT" label="ID_PATIENT" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wmVN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wmlN_EeiDzO4pYTBaYw" name="NOM_PATIENT" label="NOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wm1N_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wnFN_EeiDzO4pYTBaYw" name="PRENOM_PATIENT" label="PRENOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wnVN_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wnlN_EeiDzO4pYTBaYw" name="PRATICIEN" id="_ArMw0FN_EeiDzO4pYTBaYw" label="PRATICIEN" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wn1N_EeiDzO4pYTBaYw" name="ID_PRATICIEN" label="ID_PRATICIEN" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6woFN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6woVN_EeiDzO4pYTBaYw" name="NOM_PRATICIEN" label="NOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wolN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wo1N_EeiDzO4pYTBaYw" name="PRENOM_PRATICIEN" label="PRENOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wpFN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wpVN_EeiDzO4pYTBaYw" name="ACTIF" label="ACTIF" sourceType="BOOLEAN" talendType="id_Boolean">
-        <initialValue xmi:id="_DP6wplN_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wp1N_EeiDzO4pYTBaYw" name="CATALOGUE_PROTHESE" id="_ArPNEFN_EeiDzO4pYTBaYw" label="CATALOGUE_PROTHESE" tableType="TABLE">
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6wqFN_EeiDzO4pYTBaYw" name="ID_CATALOGUE_PROTHESE" label="ID_CATALOGUE_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
         <initialValue xmi:id="_DP6wqVN_EeiDzO4pYTBaYw"/>
@@ -161,56 +151,20 @@
         <initialValue xmi:id="_DP6wrVN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wrlN_EeiDzO4pYTBaYw" name="CATALOGUE_MATERIAUX" id="_ArS3cFN_EeiDzO4pYTBaYw" label="CATALOGUE_MATERIAUX" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wr1N_EeiDzO4pYTBaYw" name="ID_CATALOGUE_MATERIAUX" label="ID_CATALOGUE_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wsFN_EeiDzO4pYTBaYw"/>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wXVN_EeiDzO4pYTBaYw" name="PRATICIEN_LISTE" id="_G0qsoFODEeiDzO4pYTBaYw" label="PRATICIEN_LISTE" tableType="VIEW">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wXlN_EeiDzO4pYTBaYw" name="ID_PRATICIEN" label="ID_PRATICIEN" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_DP6wX1N_EeiDzO4pYTBaYw"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wsVN_EeiDzO4pYTBaYw" name="DATE_DEBUT" label="DATE_DEBUT" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_DP6wslN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6ws1N_EeiDzO4pYTBaYw" name="DATE_FIN" label="DATE_FIN" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_DP6wtFN_EeiDzO4pYTBaYw"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wYFN_EeiDzO4pYTBaYw" name="NOM_PRATICIEN" label="NOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wYVN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wtVN_EeiDzO4pYTBaYw" name="PROTHESE" id="_ArUsoFN_EeiDzO4pYTBaYw" label="PROTHESE" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wtlN_EeiDzO4pYTBaYw" name="ID_PROTHESE" label="ID_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wt1N_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wuFN_EeiDzO4pYTBaYw" name="NOM_PROTHESE" label="NOM_PROTHESE" length="255" sourceType="VARCHAR" talendType="id_String">
-        <initialValue xmi:id="_DP6wuVN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wulN_EeiDzO4pYTBaYw" name="AFFICHAGE_PROTHESE" label="AFFICHAGE_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long">
-        <initialValue xmi:id="_DP6wu1N_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wvFN_EeiDzO4pYTBaYw" name="PRIX_PROTHESE" id="_ArV6wFN_EeiDzO4pYTBaYw" label="PRIX_PROTHESE" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wvVN_EeiDzO4pYTBaYw" name="ID_PROTHESE" label="ID_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wvlN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wv1N_EeiDzO4pYTBaYw" name="ID_CATALOGUE_PROTHESE" label="ID_CATALOGUE_PROTHESE" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wwFN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wwVN_EeiDzO4pYTBaYw" name="PRIX_PROTHESE" label="PRIX_PROTHESE" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_DP6wwlN_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6ww1N_EeiDzO4pYTBaYw" name="PRIX_MATERIAUX" id="_ArXv8FN_EeiDzO4pYTBaYw" label="PRIX_MATERIAUX" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wxFN_EeiDzO4pYTBaYw" name="ID_MATERIAUX" label="ID_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wxVN_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wxlN_EeiDzO4pYTBaYw" name="ID_CATALOGUE_MATERIAUX" label="ID_CATALOGUE_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
-        <initialValue xmi:id="_DP6wx1N_EeiDzO4pYTBaYw"/>
-      </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wyFN_EeiDzO4pYTBaYw" name="PRIX_MATERIAUX" label="PRIX_MATERIAUX" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
-        <initialValue xmi:id="_DP6wyVN_EeiDzO4pYTBaYw"/>
-      </feature>
-    </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wylN_EeiDzO4pYTBaYw" name="MOIS" id="_A9jsIFN_EeiDzO4pYTBaYw" label="MOIS" tableType="VIEW">
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wylN_EeiDzO4pYTBaYw" name="MOIS" id="_G0tI4FODEeiDzO4pYTBaYw" label="MOIS" tableType="VIEW">
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6wy1N_EeiDzO4pYTBaYw" name="MOIS" label="MOIS" length="32" sourceType="INTEGER" talendType="id_Long">
         <initialValue xmi:id="_DP6wzFN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wzVN_EeiDzO4pYTBaYw" name="RÉCAPITULATIF PAR PATIENT" id="_BCzYgFN_EeiDzO4pYTBaYw" label="RECAPITULATIF_PAR_PATIENT" tableType="VIEW">
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wzVN_EeiDzO4pYTBaYw" name="RÉCAPITULATIF PAR PATIENT" id="_G0vlIFODEeiDzO4pYTBaYw" label="RECAPITULATIF_PAR_PATIENT" tableType="VIEW">
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6wzlN_EeiDzO4pYTBaYw" name="NOM_PRATICIEN" label="NOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_DP6wz1N_EeiDzO4pYTBaYw"/>
       </feature>
@@ -240,6 +194,52 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_DP6w4FN_EeiDzO4pYTBaYw" name="FORME" label="FORME" length="255" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_DP6w4VN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6wnlN_EeiDzO4pYTBaYw" name="PRATICIEN" id="_ArMw0FN_EeiDzO4pYTBaYw" label="PRATICIEN" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wn1N_EeiDzO4pYTBaYw" name="ID_PRATICIEN" label="ID_PRATICIEN" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6woFN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6woVN_EeiDzO4pYTBaYw" name="NOM_PRATICIEN" label="NOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wolN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wo1N_EeiDzO4pYTBaYw" name="PRENOM_PRATICIEN" label="PRENOM_PRATICIEN" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wpFN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wpVN_EeiDzO4pYTBaYw" name="ACTIF" label="ACTIF" sourceType="BOOLEAN" talendType="id_Boolean">
+        <initialValue xmi:id="_DP6wplN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_DP6ww1N_EeiDzO4pYTBaYw" name="PRIX_MATERIAUX" id="_ArXv8FN_EeiDzO4pYTBaYw" label="PRIX_MATERIAUX" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wxFN_EeiDzO4pYTBaYw" name="ID_MATERIAUX" label="ID_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wxVN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wxlN_EeiDzO4pYTBaYw" name="ID_CATALOGUE_MATERIAUX" label="ID_CATALOGUE_MATERIAUX" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_DP6wx1N_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wyFN_EeiDzO4pYTBaYw" name="PRIX_MATERIAUX" label="PRIX_MATERIAUX" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_DP6wyVN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wWlN_EeiDzO4pYTBaYw" name="ANNEES" id="_G03g8FODEeiDzO4pYTBaYw" label="ANNEES" tableType="VIEW">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wW1N_EeiDzO4pYTBaYw" name="ANNEE" label="ANNEE" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_DP6wXFN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wV1N_EeiDzO4pYTBaYw" name="DATE_COMMANDE" id="_G05WIFODEeiDzO4pYTBaYw" label="DATE_COMMANDE" tableType="VIEW">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wWFN_EeiDzO4pYTBaYw" name="DATE_COMMANDE" label="DATE_COMMANDE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_DP6wWVN_EeiDzO4pYTBaYw"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdView" xmi:id="_DP6wUFN_EeiDzO4pYTBaYw" name="REQUÊTE1" id="_G06kQFODEeiDzO4pYTBaYw" label="REQUETE1" tableType="VIEW">
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wUVN_EeiDzO4pYTBaYw" name="ID_PATIENT" label="ID_PATIENT" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_DP6wUlN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wU1N_EeiDzO4pYTBaYw" name="NOM_PATIENT" label="NOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wVFN_EeiDzO4pYTBaYw"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_DP6wVVN_EeiDzO4pYTBaYw" name="PRENOM_PATIENT" label="PRENOM_PATIENT" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_DP6wVlN_EeiDzO4pYTBaYw"/>
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Schema>
