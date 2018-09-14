@@ -12,6 +12,7 @@
     <module>code/routines</module>
     <module>jobs/process/a__0.1</module>
     <module>jobs/process/b__0.1</module>
+    <module>jobs/process/c__0.1</module>
   </modules>
   <properties>
     <talend.project.name>DEMO</talend.project.name>
