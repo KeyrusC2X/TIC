@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_89hmALxJEeiIwKyvQVkDTA" name="Analyse de règle métier" creationDate="2018-09-19T22:24:04.410+0200">
+  <taggedValue xmi:id="_89hmAbxJEeiIwKyvQVkDTA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_89hmArxJEeiIwKyvQVkDTA" tag="Author" value="charlesclement@eval11306.talend.com"/>
+  <taggedValue xmi:id="_89hmA7xJEeiIwKyvQVkDTA" tag="Purpose"/>
+  <taggedValue xmi:id="_89hmBLxJEeiIwKyvQVkDTA" tag="Description"/>
+  <taggedValue xmi:id="_89hmBbxJEeiIwKyvQVkDTA" tag="Version" value="0.1"/>
+  <context xmi:id="_89hmBrxJEeiIwKyvQVkDTA"/>
+  <results xmi:id="_89hmB7xJEeiIwKyvQVkDTA">
+    <resultMetadata xmi:id="_89hmCLxJEeiIwKyvQVkDTA"/>
+  </results>
+  <parameters xmi:id="_89hmCbxJEeiIwKyvQVkDTA" analysisType="Table Analysis"/>
+</dataquality.analysis:Analysis>
