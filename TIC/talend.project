@@ -391,4 +391,7 @@
     <migrationTask xmi:id="_rKfqG8ASEei1yqmQIWq5_g" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_oLneAsASEei1yqmQIWq5_g" login="charlesclement@nfr.keyrus.com" firstName="Charles" lastName="Clement" type="DQ"/>
+  <TalendProperties:User xmi:id="_6_DWIcVoEei6sqWeKZrUKw" login="pierre.coste@nfr.keyrus.com" firstName="Pierre" lastName="Coste" type="DQ"/>
+  <TalendProperties:User xmi:id="_6_DWIsVoEei6sqWeKZrUKw" login="simon.quentel@nfr.keyrus.com" firstName="Simon" lastName="Quentel" type="DQ"/>
+  <TalendProperties:User xmi:id="_6_DWI8VoEei6sqWeKZrUKw" login="laurent.conti@nfr.keyrus.com" firstName="Laurent" lastName="Conti" type="DQ"/>
 </xmi:XMI>
