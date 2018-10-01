@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_ylQV8bf8EeibM5rWcSGFzQ" label="Demo" language="java" technicalLabel="DEMO" author="_ylQV8rf8EeibM5rWcSGFzQ" productVersion="Talend Cloud Big Data Platform-7.0.1.20180712_0921-patch" url="{&quot;location&quot;:&quot;https://github.com/KeyrusC2X/TIC&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_ylQV8bf8EeibM5rWcSGFzQ" label="Demo" language="java" technicalLabel="DEMO" author="_ylQV8rf8EeibM5rWcSGFzQ" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180712_0921-patch" url="{&quot;location&quot;:&quot;https://github.com/KeyrusC2X/TIC&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_3YXfoLf8EeibM5rWcSGFzQ" label="development" code="DEV"/>
     <technicalStatus xmi:id="_3YXfobf8EeibM5rWcSGFzQ" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_3YXforf8EeibM5rWcSGFzQ" label="production" code="PROD"/>
