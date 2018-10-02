@@ -10,8 +10,8 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
-    <module>jobs/process/on_premise_to_cloud_0.1</module>
     <module>jobs/process/a_restart_demo_0.1</module>
+    <module>jobs/process/b_on_premise_to_cloud_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TIC</talend.project.name>
