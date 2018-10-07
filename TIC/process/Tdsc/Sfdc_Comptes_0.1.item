@@ -775,7 +775,64 @@
       <column defaultValue="" key="false" length="20" name="SCORE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
       <column defaultValue="" key="false" length="20" name="GRP_QUALITY" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
     </metadata>
-    <nodeData xsi:type="tdqmatching:MatchingData"/>
+    <nodeData xsi:type="tdqmatching:MatchingData">
+      <ruleMatchers>
+        <joinkeys>
+          <columnMap key="INPUT_COLUMN" value="BillingPostalCode"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="CUSTOM_MATCHER" value="&quot;&quot;"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+        </joinkeys>
+        <joinkeys>
+          <columnMap key="INPUT_COLUMN" value="BillingStreet"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="CUSTOM_MATCHER" value="&quot;&quot;"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+        </joinkeys>
+        <joinkeys>
+          <columnMap key="INPUT_COLUMN" value="Name"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="CUSTOM_MATCHER" value="&quot;&quot;"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+        </joinkeys>
+        <matchParamMap key="INTERVAL_RULE" value="0.80"/>
+        <matchParamMap key="MATCHING_ALGORITHM" value="Simple VSR Matcher"/>
+      </ruleMatchers>
+      <ruleMatchers>
+        <joinkeys>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="0"/>
+          <columnMap key="CUSTOM_MATCHER" value="&quot;&quot;"/>
+          <columnMap key="MATCHING_TYPE" value="dummy"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+          <columnMap key="INPUT_COLUMN" value="BillingPostalCode"/>
+        </joinkeys>
+        <joinkeys>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="5"/>
+          <columnMap key="INPUT_COLUMN" value="BillingStreet"/>
+          <columnMap key="CUSTOM_MATCHER" value="&quot;&quot;"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+        </joinkeys>
+        <joinkeys>
+          <columnMap key="INPUT_COLUMN" value="Name"/>
+          <columnMap key="MATCHING_TYPE" value="Levenshtein"/>
+          <columnMap key="CUSTOM_MATCHER" value="&quot;&quot;"/>
+          <columnMap key="TOKENIZATION_TYPE" value="No"/>
+          <columnMap key="CONFIDENCE_WEIGHT" value="1"/>
+          <columnMap key="HANDLE_NULL" value="nullMatchNull"/>
+        </joinkeys>
+        <matchParamMap key="INTERVAL_RULE" value="0.80"/>
+        <matchParamMap key="MATCHING_ALGORITHM" value="Simple VSR Matcher"/>
+      </ruleMatchers>
+    </nodeData>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
@@ -1262,13 +1319,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_01a422a9-a128-438b-becd-453fb93abf73"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>u/Hlst8Rc4YpNpZmmeYt0xBCalhHkggJTOGR2ycuWB6/lx74qjn98DS7Cwk1bSVv9HJ9T0jhQVkP
-u9mh277QTw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a2452bed-70b0-4fc4-b180-3ce20b210a15"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CH9cJQyNsSl9AlHhPdtpxN1ahc6cE5VXJpjXKl1FZqkaHuqpN3luOc2XKwM6ZW7LfoaPxaAUwGNd
-mgPPS5gLVg==</DigestValue></Reference></SignedInfo><SignatureValue>Jme4UlDK6g8xfR9/Uf5HehI9lhXybUnIuxVLvSOAxtj9/IZitDvKOfz8geUgD1aa4ncTWEa+ep/z
-GURgPRbGYpeU06CLT5anXBakWX182CWMhx6GERlB3D2Ib0kkyWAUWvK9Wisiy8nXgSYplCEUgxW7
-LAsE9GSkUDh1OHiUeG5dbpd/TDS3En8WR2moF9re72MyyoPKOI+o7T+xMVM+fauwEcBWXIoPvX84
-6q3E1N8RUSDpKj6BP66RE27WCwv/MtRBRjcoORrHiBGJAm5KNr7W+dX4DG0JxPdEAbUEcNT5tZPI
-fBOxDaCgnimHC+a2xQXoXC0uMUzxeYR80L381w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ca485a4c-0a7c-4cda-bc6d-dde5a48dd2fc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XXguBo2sio+eNh0HQPTe8o5Z5nwCZ0F6bTAX/yWQR7vsguZHGvr79ZJz3kvK5nM0Mpy/dbdBzQEc
+E3Ww/R/HWg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f10454c8-aa11-4fe8-814a-9b2e32dea237"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4No+fLhLS/K6A/BhTmCOxr8GKQNYoIka1z9PWFAx2PEW5LAM66JLziVdygF4/XymEGwIK+H/AD1R
+qK/XNyvB6Q==</DigestValue></Reference></SignedInfo><SignatureValue>E0DJ59gARtQcL9IYrQnQ3VgILIRbfFxXF/Fh8C2uVd49wIizfU64i79FHWwczW+VSUS40qfjhD/c
+5VqxX5ZW8KtnRODTQ7taE7y2VGVsyxNyFH04RbxuwH6+HjEcPPelW3KFyFAlVnd+AoTdRMwVjj+Y
+8nPrtTdasr2h1kYMC21FvqKmWZMSWVKETv2PaKvgd2s0X26/rCwZ9Nskopc5PLGLucnX/pGh3sHQ
+F5FytuKFbMxDjenr/5TaB1SqzOLsTRCN0ckoXvgsLVuaY67B6gwv+rS9/xgeLqODvDMCYFLm8wHG
+M31qJdKlZ49SwM/AhGDcbOlbO6WzayHGqIvZtQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -1292,4 +1349,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a2452bed-70b0-4fc4-b180-3ce20b210a15" Target="#_01a422a9-a128-438b-becd-453fb93abf73"><Timestamp>2018-10-07 14:11:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f10454c8-aa11-4fe8-814a-9b2e32dea237" Target="#_ca485a4c-0a7c-4cda-bc6d-dde5a48dd2fc"><Timestamp>2018-10-07 14:14:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
