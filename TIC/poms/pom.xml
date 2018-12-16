@@ -11,11 +11,8 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/Sfdc/a_restart_demo_0.1</module>
-    <module>jobs/process/Sfdc/b_on_premise_to_cloud_0.1</module>
-    <module>jobs/process/Sfdc/d_end_demo_0.1</module>
     <module>jobs/process/Tdsc/sfdc_comptes_0.1</module>
     <module>jobs/process/Tdsc/tdsc_0.1</module>
-    <module>jobs/process/Sfdc/adresse_0.1</module>
     <module>jobs/process/Sfdc/b_loading_data_0.1</module>
     <module>jobs/process/F_DTSC/e_tdsc_consolidation_0.1</module>
     <module>jobs/process/F_DTSC/c_survivor_0.1</module>
@@ -37,8 +34,8 @@
     <talend.project.name>TIC</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
