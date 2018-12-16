@@ -25,13 +25,14 @@
     <module>jobs/process/D_DQ_RTDMS/ab_vat_rtdms_ws_0.1</module>
     <module>jobs/process/check_vat_vies_0.1</module>
     <module>jobs/process/check_adresse_0.1</module>
+    <module>jobs/process/Sfdc/d_sfdc_dq_adresse_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TIC</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
