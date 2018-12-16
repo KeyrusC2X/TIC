@@ -5,7 +5,15 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_wqa_wAEgEem46opqYF8iZg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
     "id" : "_KI02IMZwEeiHuceGAcma6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_pgo7oMZyEeiHuceGAcma6A",
     "version" : "Latest",
     "type" : "property"
   }, {
@@ -68,6 +76,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_pgo7oMZyEeiHuceGAcma6A - Compte",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
