@@ -23,7 +23,7 @@
     <module>jobs/process/D_DQ_RTDMS/ad_adresse_rtdms_0.1</module>
     <module>jobs/process/D_DQ_RTDMS/ac_adresse_vat_rtdms_0.1</module>
     <module>jobs/process/D_DQ_RTDMS/ab_vat_rtdms_ws_0.1</module>
-    <module>jobs/process/D_DQ_RTDMS/check_vat_vies_0.1</module>
+    <module>jobs/process/check_vat_vies_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TIC</talend.project.name>
