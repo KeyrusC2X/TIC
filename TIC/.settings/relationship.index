@@ -76,10 +76,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_pgo7oMZyEeiHuceGAcma6A - Compte",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {

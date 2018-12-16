@@ -146,8 +146,6 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_pgo7oMZyEeiHuceGAcma6A"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_pgo7oMZyEeiHuceGAcma6A - Compte"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.File"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -285,7 +283,7 @@
       <column comment="" key="false" length="255" name="BillingStreet" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="BillingCity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="BillingState" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="BillingPostalCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="BillingPostalCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="BillingCountry" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Fax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -293,8 +291,8 @@
       <column comment="" key="false" length="255" name="Website" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Sic" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Industry" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="AnnualRevenue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="NumberOfEmployees" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AnnualRevenue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="NumberOfEmployees" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Ownership" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="TickerSymbol" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -311,7 +309,7 @@
       <column comment="" key="false" length="255" name="BillingStreet" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="BillingCity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="BillingState" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="BillingPostalCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BillingPostalCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="BillingCountry" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Phone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Fax" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -319,8 +317,8 @@
       <column comment="" key="false" length="255" name="Website" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Sic" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Industry" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="AnnualRevenue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="NumberOfEmployees" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AnnualRevenue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="NumberOfEmployees" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Ownership" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="TickerSymbol" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -440,7 +438,7 @@
         <mapperTableEntries expression="row1.Sic" name="Sic" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.Industry" name="Industry" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.AnnualRevenue" name="AnnualRevenue" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.NumberOfEmployees" name="NumberOfEmployees" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.NumberOfEmployees " name="NumberOfEmployees" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.Ownership" name="Ownership" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.TickerSymbol" name="TickerSymbol" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.Description" name="Description" nullable="true" type="id_String"/>
@@ -457,7 +455,7 @@
         <mapperTableEntries name="BillingStreet" nullable="true" type="id_String"/>
         <mapperTableEntries name="BillingCity" nullable="true" type="id_String"/>
         <mapperTableEntries name="BillingState" nullable="true" type="id_String"/>
-        <mapperTableEntries name="BillingPostalCode" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="BillingPostalCode" nullable="true" type="id_String"/>
         <mapperTableEntries name="BillingCountry" nullable="true" type="id_String"/>
         <mapperTableEntries name="Phone" nullable="true" type="id_String"/>
         <mapperTableEntries name="Fax" nullable="true" type="id_String"/>
@@ -465,8 +463,8 @@
         <mapperTableEntries name="Website" nullable="true" type="id_String"/>
         <mapperTableEntries name="Sic" nullable="true" type="id_String"/>
         <mapperTableEntries name="Industry" nullable="true" type="id_String"/>
-        <mapperTableEntries name="AnnualRevenue" nullable="true" type="id_String"/>
-        <mapperTableEntries name="NumberOfEmployees" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AnnualRevenue" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="NumberOfEmployees" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="Ownership" nullable="true" type="id_String"/>
         <mapperTableEntries name="TickerSymbol" nullable="true" type="id_String"/>
         <mapperTableEntries name="Description" nullable="true" type="id_String"/>
@@ -742,13 +740,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c8f2997f-7db6-4097-8056-a0d3311b7079"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XY+m/oR+n+DrwplTmgExnLjBLSYhWbgSPCLk/U09pZ+JqkWhjmw7BZ9shaOhGLI72MEN9jaGjtzs
-DTEZBGbksg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_80e1d3d0-47a7-432a-a439-14e7dd00a42c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qj2l4j/EfsKGI7iS9YP2ArIYUMmfv/UjEGw1xvpYHvltR4wu+sBtoONeZgxpIcmIKceRpMaxqYRz
-Tolqloj5pQ==</DigestValue></Reference></SignedInfo><SignatureValue>gJQkmyaYQYFUl2cwnQy7pkSThtOd3LFQ0UzE7TSnJPePx5Sq8qGqbQKwMPwGnALwFZoaDFYFtCxd
-GXC7zWGLdXNYt0jAU8ukP3fOkD1212VltBYviUmKBdTQKwWnWkvFR3vby6sShsNL4oHj6kGPsl0q
-6kU3RKPC6dRhTi1smrFTLnw3G6GUy/KqJd1uwp46z9x/vJmnRv0atcqAo4jlDtHTZea9vt16eSlV
-vd2jR4SrxpdFItE3/vTKEMk3239M5gaW8v8SlLq4ls/X8aeSerL+C1sqSvcxKuETZdoQnmmFNyL8
-UJAB4qVUEJZPGktgV6imO+GxdJHIsdVCCpoh6A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4829ee26-f7d4-4088-9f9a-eedd3e2b6be5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k6RtzqrHnNwGtsd9XST5BVCC5qOiU2x8F/3D1B2q8tUei0u5HAzPMWNKd5PYSvOkBKCdINf8UtOn
+ZsSM2U9MXA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa377f27-983f-4932-b8fa-a4f9104aa97c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ad5TIpAPMV3wYRwtSI4li6UWzOS75k/7IKNWlnDKbZ+YKZzgofUGjugFbzDX2xLB6HL5skYuwSpV
+RQS7f5LrJA==</DigestValue></Reference></SignedInfo><SignatureValue>jEfigrxkKUh3r7q44BPakFStCSKvsDai1RtDsiSpg0JWCzsC07HCQHomgLk+jNbo4T1lghchRE7a
+YkwxcYVbNogsow0J4zeTq4SWjMyRLWIpyWkMDKgVbvYX/lxLPuMeMIp93dp12EvjowKNXybQx1yY
+2unLzSe3pUFvu0H0pxINsnIwnY5LkzIuSpeRx/cMhHlTZ+IJ4403+mWvkVEyvGeS5TIN2h/wLiEa
+W1uy6Wf7PezsF9xWxeU4YU/2xRfkpn0VtwhlN9GwRaQJyX2dUmAgLC5FOE+XhdZ5K5nm9aRLiLiN
+sMnQIn827XMT3cn7GksUmtL9oLJSV6ZKVDowxw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -772,4 +770,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_80e1d3d0-47a7-432a-a439-14e7dd00a42c" Target="#_c8f2997f-7db6-4097-8056-a0d3311b7079"><Timestamp>2018-12-16 11:00:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa377f27-983f-4932-b8fa-a4f9104aa97c" Target="#_4829ee26-f7d4-4088-9f9a-eedd3e2b6be5"><Timestamp>2018-12-16 11:03:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
