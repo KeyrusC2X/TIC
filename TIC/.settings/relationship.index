@@ -1066,10 +1066,6 @@
     "id" : "_KI02IMZwEeiHuceGAcma6A - Account",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_pgo7oMZyEeiHuceGAcma6A - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
