@@ -181,7 +181,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value="Compagnie du lait;Prospect;22 Rue Bossuet;Lyon;Rhône;69006;France;04-76-64-04-46;;;www.Compagnie-du-lait.com;;Agriculture;;;Private;;;;;;;;&#13;&#10;BlablaVelo;Customer - Direct;24 Rue Professeur Weill;Lyon;;69006;;0145454557;;;www.BlablaVelo.com;;Transportation;;;Private;;;;;High;;Yes;&#13;&#10;Retail Reload;Customer - Direct;41 Rue Ney;Lyon;;69006;;+33 4 65 44 33 67;;;www.retail-reload.com;;Retail;120000000;;;;;;;Low;Platinum;;Yes&#13;&#10;Vetoquinol;Prospect;1 Rue Pierre Leroux;Paris;Paris;75007;France;03 94 85 76 96;;;www.vetoquinol.com;;Agriculture;250000;1;;;;;;Low;Silver;;No&#13;&#10;Compagnie du fruit;;24 Rue Professeur Weill;Lyon;Rhône;69006;France;0437496942;;;www.compagniedufruit.com;;;;;Private;;;;;Low;;;&#13;&#10;Nexeya;Prospect;131 Rue de Sèze;Lyon;;69006;;+33 9 87 89 87 67;;;www.nexeya.com;;Entertainment;134000000;320;Private;;;;;Low;Silver;;Maybe&#13;&#10;DigitalFactory;Customer - Direct;Rue Longue;Lyon;Rhône;69001;France;03.94.95.95.94;;;www.DigitalFactory.com;;Technology;170000000;12;Private;;;Warm;;High;Gold;Yes;Yes&#13;&#10;ProBati;Prospect;13 Quai du Commerce;Lyon;Rhône;69009;France;+33 4 95 96 97 68;;;www.probati.com;;Construction;200000;3;Private;;;Warm;;Low;Gold;Yes;No"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="Compagnie du lait;Prospect;22 Rue Bossuet;Lyon;Rhône;69006;France;04-76-64-04-46;;;www.Compagnie-du-lait.com;;Agriculture;;;Private;;;;;;;;&#13;&#10;BlablaVelo;Customer - Direct;24 Rue Professeur Weill;Lyon;;69006;;0145454557;;;www.BlablaVelo.com;;Transportation;;;Private;;;;;High;;Yes;&#13;&#10;Retail Reload;Customer - Direct;41 Rue Ney;Lyon;;69006;;+33 4 65 44 33 67;;;www.retail-reload.com;;Retail;120000000;;;;;;;Low;Platinum;;Yes&#13;&#10;Vetoquinol;Prospect;1 Rue Pierre Leroux;Paris;Paris;75007;France;03 94 85 76 96;;;www.vetoquinol.com;;Agriculture;250000;1;;;;;;Low;Silver;;No&#13;&#10;Compagnie du fruit;;24 Rue Professeur Weill;Lyon;Rhône;69006;France;0437496942;;;www.compagniedufruit.com;;;;;Private;;;;;Low;;;&#13;&#10;Nexeya;Prospect;131 Rue de Sèze;Lyon;;69006;;+33 9 87 89 87 67;;;www.nexeya.com;;Entertainment;134000000;320;Private;;;;;Low;Silver;;Maybe&#13;&#10;DigitalFactory;Customer - Direct;Rue Bossuet;Lyon;Rhône;69001;France;03.94.95.95.94;;;www.DigitalFactory.com;;Technology;170000000;12;Private;;;Warm;;High;Gold;Yes;Yes&#13;&#10;ProBati;Prospect;13 Quai du Commerce;Lyon;Rhône;69009;France;+33 4 95 96 97 68;;;www.probati.com;;Construction;200000;3;Private;;;Warm;;Low;Gold;Yes;No"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFixedFlowInput_1">
       <column comment="" key="false" length="255" name="Name" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
@@ -327,7 +327,7 @@
       <column comment="" key="false" length="255" name="UpsellOpportunity__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.Name" name="Name" type="id_String"/>
@@ -727,13 +727,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4255a90f-f462-4767-a699-b0b2f1c47ed9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fMk6EFSMokEXjSBtQEntUUvDetoZOTkto2cfqG+j1CuLWouS9fojgwT8KEZL/XpGtAFSLzNqmGWF
-6TRYaS5Lfw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_03a9ad3b-5257-4709-9576-b6c6d1491f79"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JmenCdI2jtzY8x2a89EmxawLSpQnCa9l6yHB7lU49RLkXJRdTHEsuJVxlRa2Hje/vR1rs+STrlCd
-FUBNcCLn4w==</DigestValue></Reference></SignedInfo><SignatureValue>eDYIpCFy6TWF8Lc6Ve+8IQ763xn01F738GnuI9UPXIbF0/t49fj6efq4qfv3+buHPo4Iipayscom
-xF4oP7YT10C8D1RpllnWE8Nbnz58nvvON3aOlP28X98Ll7ySRM2i3+dhdnJ4srPY4RYNuGS/I2S4
-R7EZoyFKPnQwOYVjI34nEROwVX6FlFFZY0/WXpfll1BlJW3RpDJtehEFAR69kXyP7top56VbYEOO
-sRrtwbMsoNmKCMngw+0K24upvGimpFe17x3ykiDQRZZYeM8Mr3xzwvB5Bg5SDhlpKl4XpBlI26Vw
-Du5gPRfeE1d09YAqyW1GmEVrLHxo7DcufGlLVA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_46e7812c-9ab1-49b3-9454-35ce14ddf871"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ArCz8AV9brZRe2yBJIyLhg6C6KN7eoJ6++myrSdMtqTyRqxKWAJCwGZyCUrk9tK2OAy/G+Fgz6Ht
+QHe5VcQiyg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_63d0d84a-8c28-44a2-8353-a085950ef3cc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QckqiLZRDgaau/D6cjzY9lrXyyzVq+UTUzRpv+fdoh3uL/hNZXcq8Z1OBMWTPYUuON5LfjmDRjeR
+2SkOoUCqMg==</DigestValue></Reference></SignedInfo><SignatureValue>XiIvmz3ox6aznuP1vsjPGFsTQtejdKkzTrV2KNEGExGpY+Ze1LvmcUt+PaVho2YwZV0NGeZXo+CT
+t5mDEs7T7wVuEmfBydbYxBMzdknwlV+7XY3hOO5uKp+j0qa3xk7AcTLtgPGhGauM/74AQJx3lEmA
+PnVjMUpyjsHqtfxm+O5R8mPPa7pRlZmKxj66hSXq05NoUzOCZY3KceML0CZeEDUJzICA8lON61Nt
+q4ddAreBRlmuR7CYX8hjFq7YZj02TN+2BwEwPI6FXQMkyXw6P1Z/7ptYOeVaqY/KOaKxtVa7RMDW
+4mEjQUECuXZ48VduCY5VgKeA+Yhe1DWqL4hY7w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -757,4 +757,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_03a9ad3b-5257-4709-9576-b6c6d1491f79" Target="#_4255a90f-f462-4767-a699-b0b2f1c47ed9"><Timestamp>2018-12-16 10:12:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_63d0d84a-8c28-44a2-8353-a085950ef3cc" Target="#_46e7812c-9ab1-49b3-9454-35ce14ddf871"><Timestamp>2018-12-16 10:17:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
