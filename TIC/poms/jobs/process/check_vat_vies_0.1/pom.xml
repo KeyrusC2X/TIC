@@ -259,11 +259,6 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>slf4j-log4j12-1.7.2</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
       <artifactId>slf4j-log4j12-1.7.5</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -271,11 +266,6 @@
       <groupId>org.talend.libraries</groupId>
       <artifactId>stax2-api-3.1.4</artifactId>
       <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talend-codegen-utils</artifactId>
-      <version>0.25.3</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
