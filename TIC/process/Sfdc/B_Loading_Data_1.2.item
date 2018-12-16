@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Studio" framework="" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Onpremise">
-    <contextParameter comment="" name="Encoding" prompt="Encoding?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="ISO-8859-15"/>
-    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_File" value="C:/Local_data/Input/input.csv"/>
-    <contextParameter comment="" name="Header" prompt="Header?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_Integer" value="1"/>
-    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="Fichier_input" prompt="Fichier_input?" promptNeeded="false" repositoryContextId="_51QHsMZ0EeiHuceGAcma6A" type="id_Directory" value="C:/Local_data/Input/"/>
   </context>
   <context confirmationNeeded="false" name="Cloud">
-    <contextParameter comment="" name="Encoding" prompt="Encoding?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="ISO-8859-15"/>
-    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_File" value="C:/Local_data/Input/01_Compte_SFDC.csv"/>
-    <contextParameter comment="" name="Header" prompt="Header?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_Integer" value="1"/>
-    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="Fichier_input" prompt="Fichier_input?" promptNeeded="false" repositoryContextId="_51QHsMZ0EeiHuceGAcma6A" type="id_Directory" value=""/>
   </context>
   <context confirmationNeeded="false" name="Studio">
-    <contextParameter comment="" name="Encoding" prompt="Encoding?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="ISO-8859-15"/>
-    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_File" value="C:/Local_data/Input/01_Compte_SFDC.csv"/>
-    <contextParameter comment="" name="Header" prompt="Header?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_Integer" value="1"/>
-    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_wqa_wAEgEem46opqYF8iZg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="Fichier_input" prompt="Fichier_input?" promptNeeded="false" repositoryContextId="_51QHsMZ0EeiHuceGAcma6A" type="id_Directory" value="C:/Local_data/Input/"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -144,17 +132,15 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_pgo7oMZyEeiHuceGAcma6A"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.File"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Fichier_input+&quot;Sfdc_Customer.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.RowSeparator"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="context.RowSeparator"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HEADER" value="context.Header"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
@@ -740,13 +726,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_00a94fcc-1a8b-4f9b-88fc-95b584b78b0f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JdgkvSU8aJCuDTVK5CWcOc+vD+sjtH55c9hQ6kmM9o8XoyVq4DM3KwO62VkOobvHjRs2s0GBJEm/
-8AXKxBUC/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_15b85950-010b-4756-aa78-ed6a803bf116"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hzY5yFJMSYTXnHgKcSBWqVOBOKLNFK8AgdK8lHuJyFrC3Gb7qcMhhpdKXcxOfWCXZjI5ZvsN41OZ
-n5l0gfetCQ==</DigestValue></Reference></SignedInfo><SignatureValue>FKMg+0beDNnnuggFeNI4qP0PfLPRAoaILMPMhBM906PwEd2JOFTg/fJgEk1DI9XxgKIzOB9WhqUM
-BCfgvkls8Ss8CLNQvaZU4UItE5w/qFBcJNYlYBm99NdtCTQcWuqIYJMqQKXnqZLlJ4d5v0sXvvbV
-vkNAjElftqeglKRfKAkeTi/jifTiyarymGG+BlBuqKQqNVRpBzpJHgqls7G/9h/B7Ne8aiQ/2b6b
-je4Lsi7Czi2u2dmKyhYq1hoEizCcynBd90NI/wOswypCPvfMmP/fzlBJz0zRzEAvUKMozsi3FI3z
-njUkPKfNjPMGyHp1pvn+RYO63Lv1xnSz9Vh1FA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_edda767d-c5b7-4035-9f4f-eca03450d762"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8sAFqbuq2eheX7HUWVE2JC/X7zdi9I8rSSTsdCA943IRaHk/boSVa31kt0PwIIjI5oXHW4jjQG5W
+1DpaCuMBNA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_92406e39-1b45-470f-aa6d-a6a82fb4c0ce"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Oj+L6yb+gcoDR69+i9suyDjg37OesK29zhIOMrR+GXvyYRozKbQh298zXIK0evYcSsRJ6ILa1Rhz
+CdqkGV+Waw==</DigestValue></Reference></SignedInfo><SignatureValue>toPpEPNvvwRQeMEIruYIKKWCujsVHBly/itTWOYJOPC1oQX6DCUrKHGbLP3yZzvXPfyxxiy+crD1
+Kd+lQmXzdoSa433h4J+vfVgPBcNqF+lsYlG19g2V1O4Rj6EJw1CESbHGlI7wDDZaFXH0EzT1hh8C
+NWGYq/DCflBxI0dgKS2yJKfKtQ2HyyQYA+gWED9yC9/8nbhuyT7fSZD0gWYiNTnWb2dU0ftRO6MV
+6q9l8WFtinwN6PYsm79quYkh+UFhFYpkjN9eyjSSoyx7+6XnYtkNTMa1UncKnHb5Kx1654P1nZ5Y
+rvJATL0y+Hfh/Br4ZdWmBnCSj0NsV0pvi1ELbQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -770,4 +756,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_15b85950-010b-4756-aa78-ed6a803bf116" Target="#_00a94fcc-1a8b-4f9b-88fc-95b584b78b0f"><Timestamp>2018-12-16 16:59:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_92406e39-1b45-470f-aa6d-a6a82fb4c0ce" Target="#_edda767d-c5b7-4035-9f4f-eca03450d762"><Timestamp>2018-12-16 17:01:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
