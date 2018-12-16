@@ -12,7 +12,6 @@
     <module>code/routines</module>
     <module>jobs/process/Sfdc/a_restart_demo_0.1</module>
     <module>jobs/process/Sfdc/b_on_premise_to_cloud_0.1</module>
-    <module>jobs/process/Sfdc/c_sfdc_data_quality_0.1</module>
     <module>jobs/process/Sfdc/d_end_demo_0.1</module>
     <module>jobs/process/Tdsc/sfdc_comptes_0.1</module>
     <module>jobs/process/Tdsc/tdsc_0.1</module>
@@ -27,6 +26,7 @@
     <module>jobs/process/check_adresse_0.1</module>
     <module>jobs/process/Sfdc/d_sfdc_dq_adresse_0.1</module>
     <module>jobs/joblets/check_adresse_0.1</module>
+    <module>jobs/process/Sfdc/c_sfdc_dq_phone_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TIC</talend.project.name>
